@@ -1,0 +1,11 @@
+commit 51d0329d3f3ebaff77d937fb40072b0ea5f9dfff (HEAD -> master)
+Author: Pavel <fpm.gorbachePA@bsu.by>
+Date:   Tue Feb 19 02:46:04 2019 +0300
+
+    add task1/status.txt
+
+commit c838cc337031a620ef0935a1e149ae1322919601
+Author: Pavel <fpm.gorbachePA@bsu.by>
+Date:   Tue Feb 19 01:56:17 2019 +0300
+
+    add .gitignore
