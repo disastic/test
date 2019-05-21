@@ -18,10 +18,10 @@ header{
   background-color: #ffffff;
   align-items: center;
   justify-content: space-between;
-  /* position: fixed;
+  position: fixed;
   left: 0;
   top: 0;
-  width: 100%; */
+  width: 100%;
 }
 
 div.title{
@@ -83,9 +83,11 @@ div.buttons-group button.log-out-button{
 }
 
 main{
+  margin-top: 100px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  min-height: 100vh;
 }
 
 div.filter-container{
@@ -134,8 +136,10 @@ div.post-container{
   /* flex-grow: 15; */
   width: 34%;
   display: flex;
-  justify-content: center;
+  /*justify-content: center;*/
   flex-direction: column;
+  min-height: 100vh;
+  justify-content: flex-start;
 }
 
 div.post{
@@ -192,7 +196,7 @@ div.post-footer-data div.hashtag-container{
 }
 
 div.hashtag-container a{
-
+  margin-right: 5px;
 }
 
 div.post-footer-2 div.like{
@@ -248,6 +252,7 @@ footer{
   align-items: center;
   color: #ffffff;
   justify-content: space-between;
+  position: relative;
 }
 
 footer div.student-wrapper{
@@ -310,6 +315,21 @@ div.version span{
     display: none;
   }
 }
+
+@media (max-width: 450px) {
+  div.title img, div.user-photo img{
+    width: 48px;
+  }
+
+  header{
+    padding: 5px 0 5px 0;
+  }
+
+  main{
+    margin-top: 60px;
+  }
+}
+
 
 @media (max-width: 400px) {
   div.title img, div.user-photo img{
