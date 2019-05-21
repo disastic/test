@@ -64,12 +64,13 @@
 
 
 
-        <div class="post-container">
-          <div class="post">
-            <div class="post-footer-1">
+        <div class="post-container" id="container">
+          <template id="post-template">
+            <div class="post" data-id="">
+             <div class="post-footer-1">
               <div class="user-info">
                 <img class="post-user-avatar" src="img/user.png" width="10%" >
-                <span>DISASTIC</span>
+                <span class="post-user-name">DISASTIC</span>
               </div>
             </div>
             <div class="post-description">
@@ -82,9 +83,6 @@
               <div class="post-footer-data">
                 <span class="date-container">Apr 15 2019</span>
                 <div class="hashtag-container">
-                  <a href="#">#hashtag</a>
-                  <a href="#">#hashtag</a>
-                  <a href="#">#hashtag</a>
                 </div>
               </div>
               <div class="like">
@@ -95,285 +93,7 @@
               </div>
             </div>
           </div>
-
-          <div class="post">
-            <div class="post-footer-1">
-              <div class="user-info">
-                <img class="post-user-avatar" src="img/user.png" width="10%">
-                <span>DISASTIC</span>
-              </div>
-            </div>
-            <div class="post-description">
-              <small>Only mid!!!!!!</small>
-            </div>
-            <div class="post-photo">
-              <img src="img/4455.png">
-            </div>
-            <div class="post-footer-2">
-              <div class="post-footer-data">
-                <span class="date-container">Apr 15 2019</span>
-                <div class="hashtag-container">
-                  <a href="#">#hashtag</a>
-                  <a href="#">#hashtag</a>
-                  <a href="#">#hashtag</a>
-                </div>
-              </div>
-              <div class="like">
-                <div class="like-container">
-                  <img src="img/like(1).png" width="10%">
-                  <span class="like-counter">20</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="post">
-            <div class="post-footer-1">
-              <div class="user-info">
-                <img class="post-user-avatar" src="img/user.png" width="10%">
-                <span>DISASTIC</span>
-              </div>
-            </div>
-            <div class="post-description">
-              <small>Press F to pay respect</small>
-            </div>
-            <div class="post-photo">
-              <img src="img/F.jpg">
-            </div>
-            <div class="post-footer-2">
-              <div class="post-footer-data">
-                <span class="date-container">Apr 15 2019</span>
-                <div class="hashtag-container">
-                  <a href="#">#hashtag</a>
-                  <a href="#">#hashtag</a>
-                  <a href="#">#hashtag</a>
-                </div>
-              </div>
-              <div class="like">
-                <div class="like-container">
-                  <img src="img/like(1).png" width="10%">
-                  <span class="like-counter">20</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="post">
-            <div class="post-footer-1">
-              <div class="user-info">
-                <img class="post-user-avatar" src="img/user.png" width="10%" >
-                <span>DISASTIC</span>
-              </div>
-            </div>
-            <div class="post-description">
-              <small>Так и живём</small>
-            </div>
-            <div class="post-photo">
-              <img src="img/GUMPjODMBnY.jpg">
-            </div>
-            <div class="post-footer-2">
-              <div class="post-footer-data">
-                <span class="date-container">Apr 15 2019</span>
-                <div class="hashtag-container">
-                  <a href="#">#hashtag</a>
-                  <a href="#">#hashtag</a>
-                  <a href="#">#hashtag</a>
-                </div>
-              </div>
-              <div class="like">
-                <div class="like-container">
-                  <img src="img/like(1).png" width="10%">
-                  <span class="like-counter">20</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="post">
-            <div class="post-footer-1">
-              <div class="user-info">
-                <img class="post-user-avatar" src="img/user.png" width="10%">
-                <span>DISASTIC</span>
-              </div>
-            </div>
-            <div class="post-description">
-              <small>В память о всех программистах</small>
-            </div>
-            <div class="post-photo">
-              <img src="img/герои не засыпают.jpg">
-            </div>
-            <div class="post-footer-2">
-              <div class="post-footer-data">
-                <span class="date-container">Apr 15 2019</span>
-                <div class="hashtag-container">
-                  <a href="#">#hashtag</a>
-                  <a href="#">#hashtag</a>
-                  <a href="#">#hashtag</a>
-                </div>
-              </div>
-              <div class="like">
-                <div class="like-container">
-                  <img src="img/like(1).png" width="10%">
-                  <span class="like-counter">20</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="post">
-            <div class="post-footer-1">
-              <div class="user-info">
-                <img class="post-user-avatar" src="img/user.png" width="10%">
-                <span>DISASTIC</span>
-              </div>
-            </div>
-            <div class="post-description">
-              <small>суббота</small>
-            </div>
-            <div class="post-photo">
-              <img src="img/000.jpg">
-            </div>
-            <div class="post-footer-2">
-              <div class="post-footer-data">
-                <span class="date-container">Apr 15 2019</span>
-                <div class="hashtag-container">
-                  <a href="#">#hashtag</a>
-                  <a href="#">#hashtag</a>
-                  <a href="#">#hashtag</a>
-                </div>
-              </div>
-              <div class="like">
-                <div class="like-container">
-                  <img src="img/like(1).png" width="10%">
-                  <span class="like-counter">20</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="post">
-            <div class="post-footer-1">
-              <div class="user-info">
-                <img class="post-user-avatar" src="img/user.png" width="10%">
-                <span>DISASTIC</span>
-              </div>
-            </div>
-            <div class="post-description">
-              <small>матан</small>
-            </div>
-            <div class="post-photo">
-              <img src="img/ма 1.jpg">
-            </div>
-            <div class="post-footer-2">
-              <div class="post-footer-data">
-                <span class="date-container">Apr 15 2019</span>
-                <div class="hashtag-container">
-                  <a href="#">#hashtag</a>
-                  <a href="#">#hashtag</a>
-                  <a href="#">#hashtag</a>
-                </div>
-              </div>
-              <div class="like">
-                <div class="like-container">
-                  <img src="img/like(1).png" width="10%">
-                  <span class="like-counter">20</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="post">
-            <div class="post-footer-1">
-              <div class="user-info">
-                <img class="post-user-avatar" src="img/user.png" width="10%">
-                <span>DISASTIC</span>
-              </div>
-            </div>
-            <div class="post-description">
-              <small>ещё матан</small>
-            </div>
-            <div class="post-photo">
-              <img src="img/ма 2.jpg">
-            </div>
-            <div class="post-footer-2">
-              <div class="post-footer-data">
-                <span class="date-container">Apr 15 2019</span>
-                <div class="hashtag-container">
-                  <a href="#">#hashtag</a>
-                  <a href="#">#hashtag</a>
-                  <a href="#">#hashtag</a>
-                </div>
-              </div>
-              <div class="like">
-                <div class="like-container">
-                  <img src="img/like(1).png" width="10%">
-                  <span class="like-counter">20</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="post">
-            <div class="post-footer-1">
-              <div class="user-info">
-                <img class="post-user-avatar" src="img/user.png" width="10%">
-                <span>DISASTIC</span>
-              </div>
-            </div>
-            <div class="post-description">
-              <small>описание</small>
-            </div>
-            <div class="post-photo">
-              <img src="img/4.png">
-            </div>
-            <div class="post-footer-2">
-              <div class="post-footer-data">
-                <span class="date-container">Apr 15 2019</span>
-                <div class="hashtag-container">
-                  <a href="#">#hashtag</a>
-                  <a href="#">#hashtag</a>
-                  <a href="#">#hashtag</a>
-                </div>
-              </div>
-              <div class="like">
-                <div class="like-container">
-                  <img src="img/like(1).png" width="10%">
-                  <span class="like-counter">20</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="post">
-            <div class="post-footer-1">
-              <div class="user-info">
-                <img class="post-user-avatar" src="img/user.png" width="10%">
-                <span>DISASTIC</span>
-              </div>
-            </div>
-            <div class="post-description">
-              <small>описание</small>
-            </div>
-            <div class="post-photo">
-              <img src="img/1.png">
-            </div>
-            <div class="post-footer-2">
-              <div class="post-footer-data">
-                <span class="date-container">Apr 15 2019</span>
-                <div class="hashtag-container">
-                  <a href="#">#hashtag</a>
-                  <a href="#">#hashtag</a>
-                  <a href="#">#hashtag</a>
-                </div>
-              </div>
-              <div class="like">
-                <div class="like-container">
-                  <img src="img/like(1).png" width="10%">
-                  <span class="like-counter">20</span>
-                </div>
-              </div>
-            </div>
-          </div>
+          </template>
           <div class="add-more">
             <img src="img/add more post.png" width="10%">
           </div>
@@ -394,7 +114,7 @@
         </div>
       </footer>
     </div>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
